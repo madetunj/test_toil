@@ -1,0 +1,11 @@
+message_array:
+ - 'hello world!'
+ - 'hola mundo!'
+ - 'Hallo welt!'
+ 
+ofn_array:
+ - english.txt
+ - spanish.txt
+ - german.txt
+ 
+output_file: all_messages.txt

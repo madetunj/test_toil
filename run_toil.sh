@@ -15,7 +15,7 @@ toil-cwl-runner --batchSystem=lsf \
 --workDir workdir \
 --cleanWorkDir never \
 --outdir ./outdir \
-./workflow/echo_cat_wf.cwl in.yml 1>log.out 2>log.err
+./workflow/echo_cat_wf.cwl in.yml #1>log.out 2>log.err
 
 
 for NF in $(ls -1 outdir/*); do 
